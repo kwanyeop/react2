@@ -1,0 +1,98 @@
+/* 전체 앱 컨테이너 스타일 */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* 메모 폼 스타일 */
+.memo-form {
+  margin-bottom: 20px;
+}
+
+.memo-form input,
+.memo-form textarea,
+.memo-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.memo-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.memo-form button:hover {
+  background-color: #0056b3;
+}
+
+/* 메모 리스트 스타일 */
+.memo {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.memo h3 {
+  margin-top: 0;
+}
+
+.memo p {
+  margin-bottom: 5px;
+}
+
+.memo button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.memo button:hover {
+  background-color: #c82333;
+}
+
+/* 검색 바 스타일 */
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 200px;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #218838;
+}
+
+/* 사이드바 스타일 */
+.sidebar {
+  margin-bottom: 20px;
+}
+
+.sidebar button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #ffc107;
+  color: #212529;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background-color: #e0a800;
+}
